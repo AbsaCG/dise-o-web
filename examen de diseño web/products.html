@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -18,37 +18,31 @@
     </header>
     <main class="main2">
         <h2>Catálogo de Productos</h2>
-        <form  class="busqueda">
-        <input type="text"  placeholder="Buscar producto..." required>
-        <button class="btn-buscar">Buscar</button>
-    </form>
         <div class="product-list">
             <div class="product">
                 <h3>Smartphone</h3>
                 <img src="https://www.boxesonline.pe/wp-content/uploads/2018/05/Smartphone-X-seri-02.jpg" class="img" alt="">
                 <p>$500</p>
-                <button class="btn" onclick="addToCart('Smartphone', 500)">Agregar al carrito</button>
-                
+                <button class="btn" onclick="addToCart('Smartphone', 500, 'https://www.boxesonline.pe/wp-content/uploads/2018/05/Smartphone-X-seri-02.jpg')">Agregar al carrito</button>
             </div>
             <div class="product">
                 <h3>Tablet</h3>
-                <img src="https://http2.mlstatic.com/D_Q_NP_699043-MLU76065734127_042024-O.webp"  class="img" alt="">
+                <img src="https://http2.mlstatic.com/D_Q_NP_699043-MLU76065734127_042024-O.webp" class="img" alt="">
                 <p>$300</p>
-                <button class="btn" onclick="addToCart('Tablet', 300)">Agregar al carrito</button>
+                <button class="btn" onclick="addToCart('Tablet', 300, 'https://http2.mlstatic.com/D_Q_NP_699043-MLU76065734127_042024-O.webp')">Agregar al carrito</button>
             </div>
             <div class="product">
                 <h3>Teclado Gamer</h3>
                 <img src="https://media.falabella.com/falabellaPE/128070139_01/w=800,h=800,fit=pad" class="img" alt="">
                 <p>$60</p>
-                <button class="btn" onclick="addToCart('Teclado', 60)">Agregar al carrito</button>
+                <button class="btn" onclick="addToCart('Teclado Gamer', 60, 'https://media.falabella.com/falabellaPE/128070139_01/w=800,h=800,fit=pad')">Agregar al carrito</button>
             </div>
             <div class="product">
                 <h3>Monitor Gaming</h3>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq0YvUzys7BrDTapxQ-N8E_uyB8vuleHX-2w&s"  class="img" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq0YvUzys7BrDTapxQ-N8E_uyB8vuleHX-2w&s" class="img" alt="">
                 <p>$100</p>
-                <button class="btn" onclick="addToCart('Monitor', 100)">Agregar al carrito</button>
+                <button class="btn" onclick="addToCart('Monitor Gaming', 100, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq0YvUzys7BrDTapxQ-N8E_uyB8vuleHX-2w&s')">Agregar al carrito</button>
             </div>
-            
         </div>
     </main>
     <footer>
