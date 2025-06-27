@@ -74,4 +74,19 @@ document.addEventListener('DOMContentLoaded', () => {
             window.location.href = 'index.html';
         });
     }
+<<<<<<< HEAD
 });
+=======
+});
+const toggleButton= document.getElementById ("modoOscuro");
+
+toggleButton.addEventListener("click", ()=>{
+    document.body.classList.toggle("modo-oscuro");
+
+    if (document.body.classList.contains("modo-oscuro")){
+        toggleButton.textContent="Modo Claro";
+    } else{
+        toggleButton.textContent="Modo Oscuro"
+    }
+});
+>>>>>>> 02d0fef8805a6b4f8292bcad672d148f01615077
