@@ -17,6 +17,9 @@ header {
 .contenedor-imagen{
     text-align: center;
         float: right;
+        width: 400px;
+        height: 50px;
+        position: right, top;
 
 }
 
