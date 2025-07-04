@@ -78,6 +78,9 @@ main label{
     border: none;
     cursor: pointer;
 }
+.hero{
+    padding: 10%;
+}
 
 .btn:hover {
     background-color: #0f3460;
