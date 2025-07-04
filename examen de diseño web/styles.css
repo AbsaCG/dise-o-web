@@ -149,3 +149,28 @@ footer {
     margin-right: 30%;
 }
 
+.carousel {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.carousel img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+
+body.cambiar {
+    background-color: #121212;
+    color: white;
+  }
+  
+  body.cambiar .header,
+  body.cambiar .section {
+    background-color: #1e1e1e;
+  }
+  
+  body.cambiar .mode-toggle {
+    color: #ffdd57;
+  }
+
