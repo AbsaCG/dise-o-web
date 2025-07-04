@@ -26,9 +26,7 @@ header {
 
 main {
     
-    padding: 2em;
-    margin-left: 23%;
-    margin-right: 23%;
+    display: inline-block;
 }
 .main2 {
     
@@ -41,10 +39,15 @@ main label{
     display: flex;
     flex-direction: column;
     padding: 20px;
+    gap: 20px;
     margin-left: 30%;
     margin-right: 30%;
 }
 
+.formulario{
+    min-width: 120px;
+    display: inline-block;
+}
 .product-list {
     display: flex;
     gap: 1em;
@@ -116,9 +119,7 @@ footer {
 }
 
 /*pago label*/
-.pago label{
-    gap: 1em;
-}
+
 /*busqueda de menu*/
 .busqueda input[type="text"] {
     padding:  7px;
@@ -143,18 +144,11 @@ footer {
     background-color: #2d478d;
 }
 /*pagar*/
-.pago{
-    display: flex;
-    flex-direction: column;
-    padding: 160px;
-}
+
 
 .carro{
-    display: flex;
-    flex-direction: column;
-    padding: 100px;
-    margin-left: 30%;
-    margin-right: 30%;
+    display: inline-block;
+
 }
 
 .carousel {
